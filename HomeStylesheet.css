@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(63, 63, 63);
+}
+
+.Background {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    margin-left: -10px;
+    user-drag: none;
+    -webkit-touch-callout: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.Star {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    top: 60px;
+    left: 37%;
+    margin-left: -50px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Shop {
+    position: fixed;
+    top: 450px;
+    left: 50%;
+    margin-left: -150px;
+    height: 90px;
+    width: 300px;
+    background-color: rgb(3, 165, 252);
+    border-radius: 15px;
+}
+
+.ShopText {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    font-size: 80px;
+    margin-top: -5px;
+    color: rgb(255, 255, 255);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ShopMenu {
+    height: 0px;
+    width: 1000px;
+    top: 50%;
+    left: 50%;
+    margin-top: -96px;
+    margin-left: -500px;
+    position: relative;
+    background-color: rgb(3, 165, 252);
+    border-radius: 15px;
+}
+
+.AboutUs {
+    position: fixed;
+    height: 50px;
+    width: 225px;
+    bottom: 5px;
+    left: 25px;
+    margin-left: -20px;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    background-color: rgb(3, 165, 252);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.ContactUsText {
+    position: fixed;
+    height: 50px;
+    width: 225px;
+    bottom: 5px;
+    right: 5px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(3, 165, 252);
+    border-radius: 5px;
+}

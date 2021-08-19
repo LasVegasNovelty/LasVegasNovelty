@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Las Vegas Novelties</title>
+    <link rel="stylesheet" href="HomeStylesheet.css">
+</head>
+<body>
+    <img src="Images\Background.png" class="Background" id="Background">
+    <div class="Star" id="Star" onClick="Twinkle()">
+	<audio id="TwinkleOther"><source src="Audio\Twinkle.mp3" type="audio/mp3"></audio>
+    </div>
+    <div class="Shop" id="Shop" onClick="ShopDropDown()">
+        <h1 class="ShopText" id="ShopText">Shop</h1>
+        <div class="ShopMenu" id="ShopMenu"></div>
+    </div>
+    <a href="AboutUs.html" class="AboutUs">About Us</a>
+    <a href="ContactUs.html" class="ContactUsText">Contact Us</a>
+</body>
+</html>
+<script>
+var ShopOpen = false;
+var ShopMenu = document.getElementById("ShopMenu");
+var Shop = document.getElementById("Shop");
+var Frame = null;
+
+function ShopDropDown() {
+    if (ShopOpen == false) {
+	var Size = 0;
+        clearInterval(Frame);
+        Frame = setInterval(Animation, 1);
+	function Animation() {
+            if (Size > 350) {
+                clearInterval(Frame);
+            }
+            else {
+		Size += 5;
+                ShopMenu.style.height = Size + "px";
+		Shop.style.top = 450 + (-Size/2) + "px";
+	        ShopOpen = true;
+	    }
+	}
+    }
+    else {
+	var Size = 350;
+        clearInterval(Frame);
+        Frame = setInterval(Animation, 1);
+	function Animation() {
+            if (Size < 0) {
+                clearInterval(Frame);
+            }
+            else {
+		Size -= 5;
+                ShopMenu.style.height = Size + "px";
+		Shop.style.top = 450 + (-Size/2) + "px";
+	        ShopOpen = false;
+	    }
+	}
+    }
+}
+</script>
+
+<script>
+TwinkleOther = document.getElementById("TwinkleOther");
+
+function Twinkle() {
+    if (TwinkleOther.duration > 0 || !TwinkleOther.paused) {
+	TwinkleOther.play();
+    }
+}
+</script>
