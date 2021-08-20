@@ -9,7 +9,7 @@
     <div class="Star" id="Star" onClick="Twinkle()">
 	<audio id="TwinkleOther"><source src="Audio\Twinkle.mp3" type="audio/mp3"></audio>
     </div>
-    <div class="Shop" id="Shop" onClick="ShopDropDown()">
+    <div class="Shop" id="Shop" onClick="ShopDropDown(event)">
         <h1 class="ShopText" id="ShopText">Shop</h1>
         <div class="ShopMenu" id="ShopMenu"></div>
     </div>
@@ -23,38 +23,45 @@ var ShopMenu = document.getElementById("ShopMenu");
 var Shop = document.getElementById("Shop");
 var Frame = null;
 
-function ShopDropDown() {
+function ShopDropDown(event) {
+    if (event.target.className == "Shop" || event.target.className == "ShopText") {
+        
+    }
+    else {
+        return;
+    }
+
     if (ShopOpen == false) {
-	var Size = 0;
+	    var Size = 0;
         clearInterval(Frame);
         Frame = setInterval(Animation, 1);
-	function Animation() {
+	    function Animation() {
             if (Size > 350) {
                 clearInterval(Frame);
             }
             else {
-		Size += 5;
+		        Size += 5;
                 ShopMenu.style.height = Size + "px";
-		Shop.style.top = 450 + (-Size/2) + "px";
-	        ShopOpen = true;
+		        Shop.style.top = 60 + (-Size/35*2) + "%";
+	            ShopOpen = true;
+	        }
 	    }
-	}
     }
     else {
 	var Size = 350;
         clearInterval(Frame);
         Frame = setInterval(Animation, 1);
-	function Animation() {
-            if (Size < 0) {
-                clearInterval(Frame);
-            }
-            else {
-		Size -= 5;
-                ShopMenu.style.height = Size + "px";
-		Shop.style.top = 450 + (-Size/2) + "px";
-	        ShopOpen = false;
-	    }
-	}
+	    function Animation() {
+                if (Size < 0) {
+                    clearInterval(Frame);
+                }
+                else {
+		            Size -= 5;
+                    ShopMenu.style.height = Size + "px";
+		            Shop.style.top = 60 + (-Size/35*2) + "%";
+	                ShopOpen = false;
+	        }
+        }
     }
 }
 </script>
