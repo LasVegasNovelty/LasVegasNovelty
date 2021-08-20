@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(63, 63, 63);
+}
+
 .Background {
     position: fixed;
     width: 100%;
@@ -12,4 +16,17 @@
     -moz-user-select: none;
     -o-user-select: none;
     user-select: none;
+}
+
+.AboutUs {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    margin-left: -45%;
+    height: 460px;
+    width: 90%;
+    background-color: rgb(3, 165, 252);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
