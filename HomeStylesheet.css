@@ -83,6 +83,26 @@ body {
     margin-left: 0.6%;
 }
 
+.ArtImage {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 20% 10%;
+    border-radius: 15px;
+}
+
+.ArtText {
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0px;
+    text-align: center;
+}
+
 .SouvenirsButton {
     position: absolute;
     height: 90%;

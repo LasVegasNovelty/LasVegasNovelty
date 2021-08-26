@@ -12,7 +12,10 @@
     <div class="Shop" id="Shop" onClick="ShopDropDown(event)">
         <h1 class="ShopText" id="ShopText">Shop</h1>
         <div class="ShopMenu" id="ShopMenu">
-            <a class="ArtButton" href="Shop\art.html"></a>
+            <a class="ArtButton" href="Shop\art.html">
+                <img src="Images\ArtBox.jpg" alt="ArtBox" class="ArtImage">
+                <h1 class="ArtText" id="ArtText">Art Gallery</h1>
+            </a>
             <a class="SouvenirsButton" href="Shop\souvenirs.html"></a>
             <a class="CollectiblesButton" href="Shop\collectibles.html"></a>
             <a class="SpecialtyButton" href="Shop\specialty-items.html"></a>
@@ -26,6 +29,7 @@
 var ShopOpen = false;
 var ShopMenu = document.getElementById("ShopMenu");
 var Shop = document.getElementById("Shop");
+var ArtText = document.getElementById("ArtText")
 var Frame = null;
 
 function ShopDropDown(event) {
@@ -48,6 +52,7 @@ function ShopDropDown(event) {
 		        Size += 5;
                 ShopMenu.style.height = Size + "px";
 		        Shop.style.top = 60 + (-Size/35*2) + "%";
+                ArtText.style.fontSize = Size/8.7 + "px";
 	            ShopOpen = true;
 	        }
 	    }
@@ -64,6 +69,7 @@ function ShopDropDown(event) {
 		            Size -= 5;
                     ShopMenu.style.height = Size + "px";
 		            Shop.style.top = 60 + (-Size/35*2) + "%";
+                    ArtText.style.fontSize = Size/8.7 + "px";
 	                ShopOpen = false;
 	        }
         }
