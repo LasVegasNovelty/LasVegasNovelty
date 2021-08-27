@@ -16,9 +16,15 @@
                 <img src="Images\ArtBox.jpg" alt="ArtBox" class="ArtImage">
                 <h1 class="ArtText" id="ArtText">Art Gallery</h1>
             </a>
-            <a class="SouvenirsButton" href="Shop\souvenirs.html"></a>
-            <a class="CollectiblesButton" href="Shop\collectibles.html"></a>
-            <a class="SpecialtyButton" href="Shop\specialty-items.html"></a>
+            <a class="SouvenirsButton" href="Shop\souvenirs.html">
+                <h1 class="SouvenirText" id="SouvenirText">Souvenirs</h1>
+            </a>
+            <a class="CollectiblesButton" href="Shop\collectibles.html">
+                <h1 class="CollectiblesText" id="CollectiblesText">Collectibles</h1>
+            </a>
+            <a class="SpecialtyButton" href="Shop\specialty-items.html">
+                <h1 class="SpecialtyText" id="SpecialtyText">Specialty Items</h1>
+            </a>
         </div>
     </div>
     <a href="AboutUs.html" class="AboutUs">About Us</a>
@@ -30,6 +36,9 @@ var ShopOpen = false;
 var ShopMenu = document.getElementById("ShopMenu");
 var Shop = document.getElementById("Shop");
 var ArtText = document.getElementById("ArtText")
+var SouvenirText = document.getElementById("SouvenirText")
+var CollectiblesText = document.getElementById("CollectiblesText")
+var SpecialtyText = document.getElementById("SpecialtyText")
 var Frame = null;
 
 function ShopDropDown(event) {
@@ -53,6 +62,9 @@ function ShopDropDown(event) {
                 ShopMenu.style.height = Size + "px";
 		        Shop.style.top = 60 + (-Size/35*2) + "%";
                 ArtText.style.fontSize = Size/8.7 + "px";
+                SouvenirText.style.fontSize = Size/8.7 + "px";
+                CollectiblesText.style.fontSize = Size/8.7 + "px";
+                SpecialtyText.style.fontSize = Size/8.7 + "px";
 	            ShopOpen = true;
 	        }
 	    }
@@ -70,6 +82,9 @@ function ShopDropDown(event) {
                     ShopMenu.style.height = Size + "px";
 		            Shop.style.top = 60 + (-Size/35*2) + "%";
                     ArtText.style.fontSize = Size/8.7 + "px";
+                    SouvenirText.style.fontSize = Size/8.7 + "px";
+                    CollectiblesText.style.fontSize = Size/8.7 + "px";
+                    SpecialtyText.style.fontSize = Size/8.7 + "px";
 	                ShopOpen = false;
 	        }
         }
