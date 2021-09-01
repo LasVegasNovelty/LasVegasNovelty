@@ -85,10 +85,10 @@ body {
 
 .ArtImage {
     position: relative;
-    height: 50%;
+    height: 60%;
     width: 100%;
     object-fit: cover;
-    object-position: 20% 10%;
+    object-position: 50% 50%;
     border-radius: 15px;
 }
 
@@ -113,6 +113,15 @@ body {
     margin-left: 25.6%;
 }
 
+.SouvenirsImage {
+    position: relative;
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 15px;
+}
+
 .SouvenirText {
     position: absolute;
     height: 30%;
@@ -132,6 +141,15 @@ body {
     border-radius: 15px;
     margin-top: 1.75%;
     margin-left: 50.6%;
+}
+
+.CollectiblesImage {
+    position: relative;
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 15px;
 }
 
 .CollectiblesText {
@@ -155,10 +173,20 @@ body {
     margin-left: 75.6%;
 }
 
+.SpecialtyImage {
+    position: relative;
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 15px;
+}
+
 .SpecialtyText {
     position: absolute;
     height: 30%;
     width: 100%;
+    margin-top: 10px;
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
