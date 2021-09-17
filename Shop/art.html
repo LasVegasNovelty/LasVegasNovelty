@@ -5,5 +5,45 @@
 	<link rel="stylesheet" href="ArtStyleSheet.css">
 </head>
 <body>
+    <div class="TopBar"></div>
+	<a href="..\index.html" class="Back">
+        <h1 class="BackArrow">🠔</h1>
+    </a>
+    <h1 class="ArtGalleryText">Art Gallery</h1>
+    <div class="ItemMenu">
+        <div class="ItemMenuText">
+        </div>
+    </div>
+    <div class="ArtBox1" onClick="ItemMenu()">
+    	<img src="ArtImages\LeopardWaterfallArt.png" class="ArtBox1Image"></img>
+    	<h1 class="ArtBox1Text">Leopard & Waterfall</h1>
+    </div>
+    <div class="ArtBox2" onClick="ItemMenu()">
+        <img src="ArtImages\RifleFallsArt.png" class="ArtBox2Image"></img>
+        <h1 class="ArtBox2Text">Rifle Falls</h1>
+    </div>
+    <div class="ArtBox3" onClick="ItemMenu()">
+        <img src="ArtImages\2BlueBirdsArt.png" class="ArtBox3Image"></img>
+        <h1 class="ArtBox3Text">Two Blue Birds</h1>
+    </div>
+    <div class="ArtBox4" onClick="ItemMenu()">
+        <img src="ArtImages\LampPitcherArt.png" class="ArtBox4Image"></img>
+        <h1 class="ArtBox4Text">Lamp & Pitcher</h1>
+    </div>
+    <div class="ArtBox5" onClick="ItemMenu()">
+        <img src="ArtImages\PeacockArt.png" class="ArtBox5Image"></img>
+        <h1 class="ArtBox5Text">Peacock</h1>
+    </div>
+    <div class="ArtBox6" onClick="ItemMenu()">
+        <img src="ArtImages\LasVegasArt.png" class="ArtBox6Image"></img>
+        <h1 class="ArtBox6Text">Las Vegas Icons</h1>
+    </div>
 </body>
 </html>
+
+<script>
+function ItemMenu() {
+    var ItemMenu = document.getElementsByClassName("ItemMenu")[0];
+    alert(ItemMenu);
+}
+</script>

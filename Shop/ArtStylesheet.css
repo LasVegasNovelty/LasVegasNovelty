@@ -1,0 +1,286 @@
+body {
+	background-color: rgb(3, 165, 252);
+}
+
+.Back {
+    position: fixed;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(53, 111, 204);
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.BackArrow {
+    position: absolute;
+    font-size: 75px;
+    top: -77.5px;
+    left: 50%;
+    margin-left: -35px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ArtGalleryText {
+	position: relative;
+	width: 300px;
+	font-size: 50px;
+	color: white;
+    text-decoration: ;
+	left: 125px;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.ArtBox1 {
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    top: 100px;
+    left: 25%;
+    margin-left: -150px;
+    border-radius: 10px;
+    background-color: rgb(53, 111, 204);
+}
+
+.ArtBox1Image {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ArtBox1Text {
+    position: relative;
+    color: white;
+    top: 275px;
+    font-size: 30px;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ArtBox2 {
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    top: 100px;
+    left: 50%;
+    margin-left: -150px;
+    border-radius: 10px;
+    background-color: rgb(53, 111, 204);
+}
+
+.ArtBox2Image {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ArtBox2Text {
+    position: relative;
+    color: white;
+    top: 275px;
+    font-size: 30px;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ArtBox3 {
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    top: 100px;
+    left: 75%;
+    margin-left: -150px;
+    border-radius: 10px;
+    background-color: rgb(53, 111, 204);
+}
+
+.ArtBox3Image {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ArtBox3Text {
+    position: relative;
+    color: white;
+    top: 275px;
+    font-size: 30px;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ArtBox4 {
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    top: 550px;
+    left: 25%;
+    margin-left: -150px;
+    border-radius: 10px;
+    background-color: rgb(53, 111, 204);
+}
+
+.ArtBox4Image {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ArtBox4Text {
+    position: relative;
+    color: white;
+    top: 275px;
+    font-size: 30px;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ArtBox5 {
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    top: 550px;
+    left: 50%;
+    margin-left: -150px;
+    border-radius: 10px;
+    background-color: rgb(53, 111, 204);
+}
+
+.ArtBox5Image {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ArtBox5Text {
+    position: relative;
+    color: white;
+    top: 275px;
+    font-size: 30px;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ArtBox6 {
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    top: 550px;
+    left: 75%;
+    margin-left: -150px;
+    border-radius: 10px;
+    background-color: rgb(53, 111, 204);
+}
+
+.ArtBox6Image {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ArtBox6Text {
+    position: relative;
+    color: white;
+    top: 275px;
+    font-size: 30px;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
