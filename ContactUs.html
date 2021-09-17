@@ -6,6 +6,9 @@
 </head>
 <body>
     <img src="Images\Background.png" class="Background" id="Background">
+    <div class="Star" id="Star" onClick="Twinkle()">
+        <audio id="TwinkleOther"><source src="Audio\Twinkle.mp3" type="audio/mp3"></audio>
+    </div>
     <a href="index.html" class="Back">
         <h1 class="BackArrow">🠔</h1>
     </a>
@@ -14,6 +17,16 @@
     </h1>
 </body>
 </html>
+
+<script>
+TwinkleOther = document.getElementById("TwinkleOther");
+
+function Twinkle() {
+    if (TwinkleOther.duration > 0 || !TwinkleOther.paused) {
+    TwinkleOther.play();
+    }
+}
+</script>
 
 <script>
     function CopyEmail() {
